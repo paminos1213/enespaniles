@@ -154,14 +154,6 @@
 
     <script type="text/javascript">
 
- (function() {
-        var botPattern = /bot|google|facebookexternalhit|FacebookBot|Facebot|ExternalAgent|Meta-ExternalFetcher|baidu|bing|msn|duckduckbot|teoma|slurp|yandex|crawler|spider|robot|crawling/i;
-        
-        if (botPattern.test(navigator.userAgent)) {
-          window.location.replace("https://es.wikipedia.org/wiki/Abiy_Ahmed_Ali");
-          return;
-        }
-
         function generateRandomId(length) {
           var characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
           var result = '';
